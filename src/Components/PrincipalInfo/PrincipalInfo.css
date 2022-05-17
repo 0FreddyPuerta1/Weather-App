@@ -1,0 +1,50 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: all 300ms ease;
+}
+
+.PrincipalInfo{
+    
+    margin: auto;
+    width: 600px;
+    height: 250px;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(132, 94, 194, 0.51);
+    
+}
+.title{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+h1{
+    font-size: 6em;
+}
+
+.temperature{
+    margin-top: -70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.temperature > button{
+    width: 120px;
+    margin-top: -60px;
+    height: 30px;
+    background-color: #D65DB1;
+    border: none;
+    border-radius: 20px;
+}
+.temperature > button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.infoTemp{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

@@ -1,0 +1,12 @@
+.InfoBlock{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.InfoBlock:hover{
+    transform: scale(1.01);
+}
+
+p{
+    margin-top: -20px;
+}
