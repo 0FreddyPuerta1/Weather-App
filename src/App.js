@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import { useEffect, useState } from 'react';
 import { faCloud, faDroplet, faEye } from '@fortawesome/free-solid-svg-icons'

@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLocationDot } from '@fortawesome/free-solid-svg-icons'
 import './PrincipalInfo.css'
-import {  useEffect, useState } from 'react';
+import { useState } from 'react';
 
 const PrincipalInfo = ({data}) =>{
     const [degrees, setDegrees] = useState(true)

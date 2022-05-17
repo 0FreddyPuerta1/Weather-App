@@ -1,4 +1,3 @@
-import { fa6 } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 import './InfoBlock.css'
