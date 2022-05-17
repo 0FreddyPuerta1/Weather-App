@@ -19,7 +19,7 @@ const PrincipalInfo = ({data}) =>{
             </div>
             <div className='temperature'>
                 <div className='infoTemp'>
-                <img src={`http://openweathermap.org/img/wn/${data.data?.weather[0].icon}@2x.png`}/>
+                <img src={`http://openweathermap.org/img/wn/${data.data?.weather[0].icon}@2x.png`} alt = ''/>
                 <h1>{degrees? `${Math.floor(data.data?.main.temp - 273.15)} °C` : `${Math.floor(((data.data?.main.temp - 273.15)*1.8)+32)} °F`}</h1>
                 </div>
                 <button onClick={() => setDegrees(!degrees) }>Celsius/Farenheit</button>
