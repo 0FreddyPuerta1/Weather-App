@@ -5,7 +5,6 @@ import { useState } from 'react';
 
 const PrincipalInfo = ({data}) =>{
     const [degrees, setDegrees] = useState(true)
-    const [degreesValues, setDegreesValues] = useState(`${Math.floor(data.data?.main.temp - 273.15)} °C`)
     
 
     
